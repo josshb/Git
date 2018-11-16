@@ -1,0 +1,52 @@
+package model;
+
+public class Socios {
+	
+	
+	private int edad;
+	private String sexo;
+	private boolean padresclub;
+	private String nombre;
+	
+	
+	public Socios(){
+		
+	}
+	public Socios (int edad, String sexo, boolean padresclub, String nombre) {
+		this.edad=edad;
+		this.padres=padres
+	}
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+
+	public boolean isPadresclub() {
+		return padresclub;
+	}
+
+	public void setPadresclub(boolean padresclub) {
+		this.padresclub = padresclub;
+	}
+	public String getnombre() {
+		return nombre;
+		
+	}
+	public void setnombre(String nombre) {
+		this.nombre=nombre;
+		
+	}
+	
+	
+}

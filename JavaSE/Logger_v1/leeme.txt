@@ -1,0 +1,41 @@
+Uso Junit pero con la sintaxis nueva
+Fijate en el fichero log4j2.xml
+
+https://stackoverflow.com/questions/22485074/log4j-2-doesnt-support-log4j-properties-file-anymore
+
+
+Example of Log4j v1.x config file:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+        </layout>
+    </appender>
+    <category name="org.apache.log4j.xml">
+        <priority value="info" />
+    </category>
+    <Root>
+        <priority value ="debug" />
+        <appender-ref ref="STDOUT" />
+    </Root>
+</log4j:configuration>
+====================================================
+Same config file migrated to Log4j v2:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+    <Logger name="org.apache.log4j.xml" level="info"/>
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

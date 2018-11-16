@@ -1,0 +1,6 @@
+ERROR - 21:09:06: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 21:09:42: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///01-HolaMundo_v1_Basico/.classpath, 2, 12)
+ERROR - 21:09:42: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///01-HolaMundo_v1_Basico/.classpath, 2, 12)
+WARNING - 21:10:08: Convert Supermercado_v1
+ERROR - 21:10:08: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 21:10:21: java.net.MalformedURLException: unknown protocol: pathmap

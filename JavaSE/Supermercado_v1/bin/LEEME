@@ -1,0 +1,24 @@
+VERSION V1
+- Coleccion con ArrayList
+- Opciones básicas
+
+NOTA: 
+Si se explica, usar mejor la v2. 
+Este sólo para que lo mejoren
+Alumno... antes de ejecutarlo .. leete esto. NO lo hagas. No funciona bien
+
+MEJORAS
+- Los paquetes están en Mayúsculas. Hay que ponerlos en minúsculas
+- Producto tiene elementos no privados
+- La coleccion no es privada
+- Usar mejor el paquete "Modelo" en vez de "Beans"
+
+- Mejorar "la limpieza" del supermercado
+- Limpiar y recolocar algunos elementos
+- No sale al decir s (necesita S)
+- Emplear otro tipo de estructura para la coleccion
+- en DatosStock aparecen ñ
+- No hay try-catch
+- Guardar elementos en ficheros
+
+- NO FUNCIONA ALTA PRODUCTO ¡OH MY GOD! --> revisa crearProducto()

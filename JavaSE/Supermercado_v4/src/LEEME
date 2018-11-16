@@ -1,0 +1,12 @@
+VERSION V4
+
+- Incluye capa de servicios basica y vaga (capa "funcionaria")
+- Enumerado
+
+
+MEJORAS
+- Lo lógico sería sacar el stock fuera de producto
+- Mejorar la capa de servicios para quitar acciones a la capa de datos inferior
+- Usar interfaces
+Fallo en enumerados ya que empieza en 0
+

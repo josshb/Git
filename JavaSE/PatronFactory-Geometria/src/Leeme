@@ -1,0 +1,31 @@
+﻿                                      FACTORY
+
+-----------
+Descripción
+-----------
+
+Libera al desarrollador sobre la forma correcta de crear objetos. 
+Define la interfaz de creación de un cierto tipo de objeto, 
+permitiendo que las subclases decidan que clase concreta necesitan instancias.
+
+-----
+Usos
+-----
+
+Este patrón se debe utilizar cuando:
+01) Una clase no puede anticipar el tipo de objeto que debe crear y quiere 
+que sus subclases especifiquen dichos objetos.
+02) Hay clases que delegan responsabilidades en una o varias subclases. 
+Una aplicación es grande y compleja y posee muchos patrones creacionales. 
+
+-------------
+Consecuencias
+-------------
+
+01) Como ventaja se destaca que elimina la necesidad de introducir clases 
+específicas en el código del creador. 
+Solo maneja la interfaz Product, por lo que permite añadir cualquier clase 
+ConcretProduct definida por el usuario.
+
+02) Por otro lado, es más flexible crear un objeto con un Factory Method que 
+directamente: un método factoría puede dar una implementación por defecto.

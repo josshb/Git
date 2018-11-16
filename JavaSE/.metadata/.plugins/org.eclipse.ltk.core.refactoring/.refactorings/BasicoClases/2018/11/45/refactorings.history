@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;col&apos; in &apos;datos.Datos&apos; to &apos;colVegana&apos;&#x0D;&#x0A;- Original project: &apos;BasicoClases&apos;&#x0D;&#x0A;- Original element: &apos;datos.Datos.col&apos;&#x0D;&#x0A;- Renamed element: &apos;datos.Datos.colVegana&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;col&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;datos{Datos.java[Datos^col" name="colVegana" references="true" setter="false" stamp="1541513309123" textual="false" version="1.0"/>
+</session>

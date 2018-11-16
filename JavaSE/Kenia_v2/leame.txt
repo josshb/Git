@@ -1,0 +1,10 @@
+Aspectos a mejorar
+
+- El control deberia tener a Kenia como atributo y no como variable local
+- El enumerado deberia ir fuera de la interface.
+- Principal -> en la parte izda de las variables deberia figurar Parque Nacional
+
+
+Ideas para Visitable (usa ej Patos)
+- NO Visitable
+- SI Visitable

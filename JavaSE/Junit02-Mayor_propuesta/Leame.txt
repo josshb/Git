@@ -1,0 +1,5 @@
+Diseñar las pruebas para el método indicado
+
+isGreater(A,B)
+Devuelve TRUE sólo si el número A > B
+

@@ -1,0 +1,38 @@
+                                      ESTRATEGIA
+
+-----------
+Descripción
+-----------
+
+Encapsula algoritmos en clases, permitiendo que éstos sean re-utilizados e intercambiables. 
+En base a un parámetro, que puede ser cualquier objeto, permite a una 
+aplicación decidir en tiempo de ejecución el algoritmo que debe ejecutar.
+
+-----
+Usos
+-----
+
+Este patrón se debe utilizar cuando:
+01) Un programa tiene que proporcionar múltiples variantes de un algoritmo
+o comportamiento.
+
+02) Es posible encapsular las variantes de comportamiento en clases separadas
+que proporcionan un modo consistente de acceder a los comportamientos.
+
+03) Permite cambiar o agregar algoritmos, independientemente de la clase que 
+lo utiliza.
+
+
+-------------
+Consecuencias
+-------------
+
+01) Permite que los comportamientos de los Clientes sean determinados dinámicamente
+sobre un objeto base.
+
+02) Simplifica los Clientes: les reduce responsabilidad para seleccionar comportamientos
+o implementaciones de comportamientos alternativos. Esto simplifica el código de los 
+objetos Cliente eliminando las expresiones if y switch.
+
+03) En algunos casos, esto puede incrementar también la velocidad de los objetos 
+Cliente porque ellos no necesitan perder tiempo seleccionado un comportamiento.

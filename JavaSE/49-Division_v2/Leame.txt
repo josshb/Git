@@ -1,0 +1,29 @@
+you need to do something like below instaed of Logger.getLogger(....);
+Logger.getLogger se usaba hasta la versión 2.7 y muchos ejemplos de internet estan asi
+
+
+trace() 
+es el menos importante y se suele usar en la fase de desarrollo, para que el programador sepa por donde va pasando el programa. 
+Es el típico System.out.println("paso por aquí").
+Cuidado que no tiene porque salir en pantalla siempre
+
+debug() 
+es para información útil para depurar
+Ej algún resultado parcial, el valor de alguna variable, etc.
+
+info()
+es para cosas normales en la aplicación que pueden tener cierto interés para mostrar en el log. 
+Por ejemplo, se establece una conexión con base de datos, se conecta un cliente a nuestro servidor, un usuario entra en sesión, se salva la sesión en base de datos, etc.
+
+warn()
+para pequeños fallos que se pueden recuperar fácilmente 
+por ejemplo, un usuario introduce una password errónea, un fichero de configuración no existe y la aplicación coge la configuración por defecto que se establezca en el código, etc.
+
+error()
+para errores importantes, pero que no obligan a terminar la aplicación. 
+Por ejemplo, no se puede uno conectar a la base de datos, aunque hay otras funcionalidades que sí pueden seguir ofreciéndose, aun sin base de datos.
+
+fatal()
+para errores que obligan a terminar la aplicación 
+por ejemplo, se acaba la memoria disponible.
+    

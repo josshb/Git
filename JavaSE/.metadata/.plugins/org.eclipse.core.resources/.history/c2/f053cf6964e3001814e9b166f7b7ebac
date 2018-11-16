@@ -1,0 +1,18 @@
+/*package control;
+
+import utilidades.ContadorArrays;
+
+public class Test {
+
+	public static void prueba() {
+		// TODO Auto-generated method stub
+		ContadorArrays dentroArray=new ContadorArrays(4);
+		
+		
+		String array1[dentroarr]= {"enero","febrero","marzo","abril"};
+		
+		
+	}
+
+}
+*/

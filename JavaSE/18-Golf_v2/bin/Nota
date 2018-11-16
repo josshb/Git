@@ -1,0 +1,14 @@
+Basados en versiones anteriores
+Realizado por vuestro querido profe
+
+
+
+Posibles Mejoras
+================
+
+- Crea otra clase (tipo Servicio) que tuviera el calculo de cuotas. 
+- Interesante es que devolviera una categoria en vez del caluclo de cuotas
+	- eso seria mas flexible porque permite rango de cuotas segun categorias
+- La clase Club deberia tener solo informacion del club
+- Habria que mejorar el algoritmo --> Patron Decorator
+- Usar enumerados para tipo Descuentos

@@ -1,0 +1,2 @@
+v6
+Incluyo utilidades para lectura de datos

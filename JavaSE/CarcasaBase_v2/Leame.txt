@@ -1,0 +1,13 @@
+Carcasa Base v2
+
+Incluye (de la v1)
+- control
+- model
+- datos con arraylist
+- logger
+- utilidades (simuladores + leer)
+
+Incluye (de la v2)
+- Generics
+
+

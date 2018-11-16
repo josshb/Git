@@ -1,0 +1,29 @@
+﻿Idea obtenida de
+https://dzone.com/articles/junit-tutorial-beginners
+
+Ejecuta con
+bt dcho > Run As > Junit Test
+
+Usamos log4j
+- fijate que hay un fichero de configuracion en la carpeta bin
+- Añado un logger en la clase Test
+- Me he traido las librerias. En maven lo haremos de otra forma
+
+Uso ya Junit 4.x (fijate que no hago    extends TestCase)
+https://stackoverflow.com/questions/2635839/junit-confusion-use-extends-testcase-or-test
+
+Ojo: NO usa el setUp (fijate que no aparece este texto)
+
+Ademas añado   @test para indicar los test
+
+
+
+Si al ejecutar obtienes este error
+   log4j:WARN No appenders could be found for logger (calctest.MathTest).
+   log4j:WARN Please initialize the log4j system properly.
+   log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+solucionalo asi
+https://stackoverflow.com/questions/12532339/no-appenders-could-be-found-for-loggerlog4j
+Eso porque le falta el fichero log4j.properties
+Gañan o gañana, te puede haber ocurrido porque has importado el proyecto (pero el fichero va aparte)

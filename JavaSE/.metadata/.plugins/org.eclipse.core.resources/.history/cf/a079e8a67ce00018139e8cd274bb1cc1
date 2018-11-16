@@ -1,0 +1,17 @@
+package utilities;
+
+import lados.Lados;
+public class ComparadorLados {
+	int L1=new Lados().getLado1();
+	int L2=new Lados().getLado2();
+	int L3=new Lados().getLado1();
+	
+	public int Comparacion() {
+		
+		
+	int LadoMasLargo=Math.max (L1,L2);
+	LadoMasLargo=Math.max(LadoMasLargo, L3);
+	return LadoMasLargo;
+	}
+
+}

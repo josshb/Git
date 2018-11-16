@@ -1,0 +1,9 @@
+Ejecuta con
+bt dcho > Run As > Junit Test
+
+- Proyecto con Junit 4.x
+- uso de anotaciones
+- Realizado en Maven
+	El fichero de configuracion va en la carpeta resources
+
+Mejora de la bateria de pruebas

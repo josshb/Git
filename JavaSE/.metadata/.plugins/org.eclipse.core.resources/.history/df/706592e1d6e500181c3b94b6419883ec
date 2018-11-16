@@ -1,0 +1,14 @@
+npackage control;
+
+/**
+ *
+ * @author Antonio
+ */
+public class Main {
+
+    public static void main(String[] args) {
+        Test.prueba2();
+        //esto lleva a prueba2
+    }
+
+}

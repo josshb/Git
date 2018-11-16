@@ -1,0 +1,23 @@
+package ultilidades;
+
+import java.util.Scanner;
+
+import control.Elemento;
+
+public class BuscadorDeElementos {
+
+	public void buscador() {
+	Elemento E1=new Elemento();
+	Scanner teclado=new Scanner(System.in);
+	System.out.println("Introduce el nombre de tu elemento");
+	E1.setName(teclado.nextLine());
+	System.out.println("Introduce el simbolo de tu elemento");
+	E1.setSymbol(teclado.nextLine());
+
+	System.out.println("Introduce el numero atomico de tu elemento");
+	E1.setNumero(teclado.nextInt());
+	teclado.close();
+
+	System.out.println("esta es la ficha de tu elemento:\n"+E1);
+	}
+}

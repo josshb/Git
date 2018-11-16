@@ -1,0 +1,13 @@
+VERSION V2
+
+- Seguir los estándares: paquetes en minusculas, private, ...
+- Se ha limpiado la parte del supermercado: seguir, opciones elegidas, ...
+- Serializado
+
+
+MEJORAS
+- Lo lógico sería sacar el código fuera de producto
+- Lo lógico sería sacar el stock fuera de producto
+- Hacer una clase categoria (enumerado)
+- Usar una capa de servicios
+- Usar interfaces

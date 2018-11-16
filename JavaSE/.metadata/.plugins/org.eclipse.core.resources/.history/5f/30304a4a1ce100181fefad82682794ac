@@ -1,0 +1,22 @@
+package control;
+
+import utilidades.ItroduceNumeros2000;
+import utilidades.Numero;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int numero=new Numero().getnumero();
+		
+		if (numero%2==0) {
+			System.out.println("tu numero es par");
+			
+		}else {
+			System.out.println("tu numero es impar");
+		}
+		
+	}
+
+}

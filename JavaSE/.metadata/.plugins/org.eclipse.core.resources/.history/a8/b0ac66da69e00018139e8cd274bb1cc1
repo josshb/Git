@@ -1,0 +1,21 @@
+package areas;
+
+public class AreaTriangulo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int l1=15;
+	int l2=90;
+	int l3=20;
+	
+	int ladolargo=Math.max(l1, l2);
+	int ladolargo=Math.max(ladolargo, l3);
+	
+	
+	System.out.println(ladolargo);
+		
+		
+	}
+
+}

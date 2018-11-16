@@ -1,0 +1,43 @@
+                                      DECORATOR
+
+-----------
+Descripción
+-----------
+
+El patrón decorator permite añadir responsabilidades a objetos concretos 
+de forma dinámica. 
+
+Los decoradores ofrecen una alternativa más flexible que la herencia para 
+extender las funcionalidades.
+
+-----
+Usos
+-----
+
+Este patrón se debe utilizar cuando:
+1) Hay una necesidad de extender la funcionalidad de una clase, 
+pero no hay razones para extenderlo a través de la herencia.
+2) Se quiere agregar o quitar dinámicamente la funcionalidad de un objeto.
+
+-------------
+Consecuencias
+-------------
+
+1) Es más flexible que la herencia: utilizando diferentes combinaciones de 
+unos pocos tipos distintos de objetos decorator, se puede crear muchas 
+combinaciones distintas de comportamientos. 
+Para crear esos diferentes tipos de comportamiento con la herencia se 
+requiere que definas muchas clases distintas.
+
+2) Evita que las clases altas de la jerarquía estén demasiado cargadas de 
+funcionalidad.
+
+3) Un componente y su decorador no son el mismo objeto.
+
+4) Provoca la creación de muchos objetos pequeños encadenados, lo que puede 
+llegar a complicar la depuración.
+
+5) La flexibilidad de los objetos decorator los hace más propenso a errores 
+que la herencia. Por ejemplo, es posible combinar objetos decorator de 
+diferentes formas que no funcionen, o crear referencias circulares entre los 
+objetos decorator.

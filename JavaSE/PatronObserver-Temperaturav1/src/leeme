@@ -1,0 +1,60 @@
+basico
+Mide solo temperatura
+
+                                      OBSERVER
+
+-----------
+Descripción
+-----------
+
+Este patrón de diseño permite reaccionar a ciertas clases llamadas 
+observadores sobre un evento determinado.
+
+Es usado en programación para monitorizar el estado de un objeto en 
+un programa.
+
+-----
+Usos
+-----
+
+Este patrón se debe utilizar cuando:
+1) Un objeto necesita notificar a otros objetos cuando cambia su estado.
+La idea es encapsular estos aspectos en objetos diferentes permite variarlos
+y reutilizarlos independientemente.
+
+2) Cuando existe una relación de dependencia de uno a muchos que puede 
+requerir que un objeto notifique a múltiples objetos que dependen de él 
+cuando cambia su estado.
+
+3) Este patrón tiene un uso muy concreto: varios objetos necesitan ser 
+notificados de un evento y cada uno de ellos deciden como reaccionar 
+cuando esta evento se produzca.
+
+Un caso típico es la Bolsa de Comercio, donde se trabaja con las 
+acciones de las empresas. Imaginemos que muchas empresas estan 
+monitorizando las acciones una empresa X. Posiblemente si estas acciones 
+bajan, algunas personas esten interesadas en vender acciones, otras en 
+comprar, otras quizas no hagan nada y la empresa X quizas tome alguna 
+decisión por su cuenta. Todos reaccionan distinto ante el mismo evento. 
+
+
+-------------
+Consecuencias
+-------------
+
+1) Permite modificar las clases subjects y las observers independientemente.
+
+2) Permite añadir nuevos observadores en tiempo de ejecución, sin que esto 
+afecte a ningún otro observador.
+
+3) Permite que dos capas de diferentes niveles de abstracción se puedan 
+comunicar entre sí sin romper esa división.
+
+4) Permite comunicación broadcast, es decir, un objeto subject envía su 
+notificación a todos los observers sin enviárselo a ningún observer en 
+concreto (el mensaje no tiene un destinatario concreto). Todos los observers 
+reciben el mensaje y deciden si hacerle caso ó ignorarlo.
+
+5) La comunicación entre los objetos subject y sus observadores es limitada:
+el evento siempre significa que se ha producido algún cambio en el estado 
+del objeto y el mensaje no indica el destinatario.

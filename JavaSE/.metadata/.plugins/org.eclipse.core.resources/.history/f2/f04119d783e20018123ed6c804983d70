@@ -1,0 +1,18 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int numero = 0;
+		int resultado = 0;
+		
+		for(int i = numero; i<7; i++ ) {
+			resultado= resultado+i;
+			
+		}
+		System.out.println(resultado);
+	}
+
+}

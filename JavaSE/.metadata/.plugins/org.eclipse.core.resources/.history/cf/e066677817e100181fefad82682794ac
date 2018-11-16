@@ -1,0 +1,19 @@
+package control;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int numero=90;
+		
+		if (numero%2==0) {
+			System.out.println("tu numero es par");
+			
+		}else {
+			System.out.println("tu numero es impar");
+		}
+		
+	}
+
+}

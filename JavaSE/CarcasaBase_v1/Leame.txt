@@ -1,0 +1,12 @@
+Carcasa Base v1
+
+Incluye
+- control
+- model
+- datos con arraylist
+- logger
+- utilidades (simuladores + leer)
+
+Problema a solucionar
+Al pedir un dato y no ser Producto... da fallo de casting
+Necesito saber siempre el tipo de datos antes de hacer casting

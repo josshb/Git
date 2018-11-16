@@ -1,0 +1,12 @@
+Fallos
+
+- main --> Main
+- ¿beins?   ehhhhhh?
+- atributos siempre privados
+- un int implica demasiadas puertas
+- ¿y que tal si usas un constructor?
+	- ¿y si lo quiero cambiar? 
+		¿Tambien uso un constructor? 
+		¿Algo mas flexible?
+- Oye mashote... ¿conoces el toString()?
+- los paquetes van en minúsculas

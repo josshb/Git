@@ -1,0 +1,11 @@
+package model;
+public class Datos {
+	
+	public void datos() {
+	Socios Socio1=new Socios();
+	
+	
+	}
+	
+
+}

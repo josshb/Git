@@ -1,0 +1,42 @@
+package control;
+
+import lados.Lados;
+import utilities.Escritor;
+import utilities.Teclatron;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	/*int l1=15;
+	int l2=90;
+	int l3=20;
+	
+	int ladolargo=Math.max(l1, l2);
+	
+	ladolargo=Math.max(ladolargo, l3);
+	
+	System.out.println(ladolargo);
+		*/
+		Lados T1=new Lados();
+	     
+	     System.out.println("Introduce el primer lado de tu triangulo");
+	     
+	     T1.setLado1(Teclatron.teclas());
+	     
+	     System.out.println("Introduce el segundo lado de tu triangulo");
+	     
+	     T1.setLado2(Teclatron.teclas());
+
+	     System.out.println("Introduce el tercer lado de tu triangulo");
+	     
+	     T1.setLado3(Teclatron.teclas());
+	     
+	     
+	     new Escritor().Escribe();
+	     
+		
+	}
+
+}

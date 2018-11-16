@@ -1,0 +1,14 @@
+package control;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] edad;
+		edad=new int[10];
+		System.out.println(edad);
+		
+	}
+
+}

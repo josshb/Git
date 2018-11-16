@@ -1,0 +1,21 @@
+package utilidades;
+
+import javax.swing.JOptionPane;
+
+public class ItroduceNumeros2000 {
+
+	private int numero;
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = Integer.parseInt(JOptionPane.showInputDialog("Introduce el numero del que quieres saber si es par"));
+		
+	}
+	
+	
+	
+	
+}

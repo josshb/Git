@@ -1,0 +1,20 @@
+realizada a partir de la v1
+
+
+Cosas nuevas
+============
+- Capa GUI
+- Menú
+- Todos los métodos de Datos
+
+
+Esto es un retroceso en algunas partes con respecto a la v1
+en la v1 la capa de servicios se encargaba de más cosas y aqui
+pasa "los marrones" a la de Datos
+
+Para próximas versiones
+=======================
+- Capa de Datos mas coherente
+- Trabajar con ficheros
+- Es feo tener casos de prueba ("hardcodear")
+

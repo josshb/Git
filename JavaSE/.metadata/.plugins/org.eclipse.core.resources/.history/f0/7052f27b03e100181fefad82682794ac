@@ -1,0 +1,26 @@
+package control;
+
+import personas.Personas;
+
+public class Asignador {
+	
+	
+	
+	
+public static int asignar() {
+	
+	Personas P1=new Personas("Paco",23);
+	
+	int EdadP1;
+	
+	return EdadP1= P1.getEdad();
+	
+	
+	
+	
+	
+	
+}
+	
+	
+}

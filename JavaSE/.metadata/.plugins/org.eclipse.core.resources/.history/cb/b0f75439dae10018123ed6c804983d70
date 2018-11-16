@@ -1,0 +1,20 @@
+package control;
+
+import datos.Datos;
+import model.Producto;
+
+public class Control {
+	
+	private Datos datos=new Datos();
+	
+	
+	
+	public void iniciar() {
+		
+		Producto p=new Producto("carne");
+		datos.anadir(p);
+		System.out.println(datos);
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+VERSION V3
+
+- Emplea HashMap
+- Mejoras en stock (coleccion)
+- Los productos tienen el código aparte
+
+
+MEJORAS
+- Lo lógico sería sacar el stock fuera de producto
+- Hacer una clase categoria (enumerado)
+- Usar una capa de servicios
+- Usar interfaces
+

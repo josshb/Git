@@ -1,0 +1,11 @@
+VERSION V6
+
+- Uso interfaces
+- Excepciones personalizadas (esbozadas posibilidades)
+- 
+
+MEJORAS
+- Lo lógico sería sacar el stock fuera de producto
+- Metodos estáticos serializar/codigoAutomatico...
+- Sistema delogger. Incluir acciones a acometer en caso de Error.SEVERE
+

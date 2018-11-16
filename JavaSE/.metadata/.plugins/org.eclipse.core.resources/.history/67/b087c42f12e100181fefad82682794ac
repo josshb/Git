@@ -1,0 +1,21 @@
+package control;
+
+import org.apache.logging.log4j.*;
+public class MainEdades {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final static Logger logger = Logger.getLogger(MainEdades.class);
+	 int edad=19;
+	 final int mayoriaedad=18;
+	 
+	 if (edad>=mayoriaedad) {
+		 logger.error("This is error : "; 
+		 
+		
+	}
+		
+		
+	}
+
+}

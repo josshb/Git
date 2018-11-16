@@ -1,0 +1,36 @@
+                                      ABSTRACT FACTORY
+
+-----------
+Descripción
+-----------
+
+Este patrón crea diferentes familias de objetos. 
+Su objetivo principal es soportar múltiples estándares que vienen definidos 
+por las diferentes jerarquías de herencia de objetos. 
+Es similar al Factory Method, sólo que esta orientado a combinar productos.
+
+-----
+Usos
+-----
+
+Este patrón se debe utilizar cuando:
+01) Un sistema se debe configurar con una de entre varias familias de productos.
+02) Una familia de productos relacionados están hechos para utilizarse juntos.
+
+
+-------------
+Consecuencias
+-------------
+
+01) Se oculta a los clientes las clases de implementación: los clientes 
+manipulan los objetos a través de las interfaces o clases abstractas.
+
+02) Facilita el intercambio de familias de productos: al crear una familia 
+completa de objetos con una factoría abstracta, es fácil cambiar toda la familia
+de una vez simplemente cambiando la factoría concreta.
+
+03) Mejora la consistencia entre productos: el uso de la factoría abstracta 
+permite forzar a utilizar un conjunto de objetos de una misma familia.
+
+04) Como inconveniente podemos decir que no siempre es fácil soportar nuevos tipos
+de productos si se tiene que extender la interfaz de la Factoría abstracta.

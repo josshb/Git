@@ -1,0 +1,3 @@
+v2
+Quiero que el main no tenga nada.
+Creo una clase para hacer sus tareas

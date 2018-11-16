@@ -1,0 +1,4 @@
+Diseñar las pruebas para el metodo indicado
+
+Sumar()
+Devuelve el resultado de la suma

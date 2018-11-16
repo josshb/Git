@@ -1,0 +1,14 @@
+package utilities;
+import org.omg.Messaging.SyncScopeHelper;
+
+import lados.*;
+public class ComparadorLados {
+
+	
+	public int Comparacion() {
+	int LadoMasLargo=Math.max (new Lados().getLado1(),new Lados().getLado2());
+	LadoMasLargo=Math.max(LadoMasLargo, new Lados().getLado3());
+	return LadoMasLargo;
+	}
+
+}

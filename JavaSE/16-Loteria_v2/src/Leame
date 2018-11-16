@@ -1,0 +1,10 @@
+Hemos mejorado el ejercicio usando arrays para controlar datos repetidos repetidos repetidos
+
+Algoritmos muy mejorables
+- usar for-each
+- usar while
+
+IDEAS PARA FUTURO
+- Organizar numeros de la salida
+- Usar apuestas sencillas y multiples
+    * Usar un enumerado (6, 7...) y pasarlo como argumento del array de la apuesta

@@ -1,0 +1,6 @@
+Ahora tienen firma del diseñador
+Mejoras en el codigo
+Mejoras en enumerados
+
+Fataria
+- Usar Decorator

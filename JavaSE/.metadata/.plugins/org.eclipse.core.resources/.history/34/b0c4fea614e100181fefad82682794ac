@@ -1,0 +1,22 @@
+/*package utilidades;
+
+import control.Asignador;
+
+public class FiltroEdad {
+
+	
+	public FiltroEdad() {
+		
+	}
+	
+	final int mayoredad=18;
+	
+	int edad=Asignador.asignar();
+	
+	if
+	
+
+	
+}
+*/
+

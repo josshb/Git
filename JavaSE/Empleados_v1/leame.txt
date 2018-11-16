@@ -1,0 +1,13 @@
+Está basado en una carcasa muy muy muy básica pero
+
+Cambios realizados
+
+CONCEPTOS NUEVOS
+- usar interfaces para luego crear metodos
+- en los atributos la parte izda es una interfaz
+
+
+CAPAS NUEVAS
+- Capa GUI
+- Tiene capa servicios
+- Tiene capa de datos

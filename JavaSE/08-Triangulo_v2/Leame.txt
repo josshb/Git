@@ -1,0 +1,5 @@
+Calculo el lado mayor
+¿Tendremos algun problema al calcular la distancia con algun metodo del punto?
+
+Para el futuro
+- Acotar a un decimal (usarDecimalFormat)

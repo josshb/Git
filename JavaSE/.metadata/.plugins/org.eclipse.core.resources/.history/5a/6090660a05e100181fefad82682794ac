@@ -1,0 +1,25 @@
+package control;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class MainMayores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int edad=Asignador.asignar();
+		final int MayoriaEdad=18;
+		
+		if (edad<=MayoriaEdad) {
+			
+			System.out.println("eres menor a la hoguera");
+			Logger logger = LogManager.getLogger("Fuera perro");
+
+		}else {
+			System.out.println("eres mayor de edad bienvenido");
+			Logger logger = LogManager.getLogger("Bienvenido");
+			
+		}
+	}
+
+}

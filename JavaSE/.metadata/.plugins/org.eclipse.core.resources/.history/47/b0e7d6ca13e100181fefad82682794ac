@@ -1,0 +1,108 @@
+package utilidades;
+
+
+import org.apache.logging.log4j.Logger;
+
+import org.apache.logging.log4j.LogManager;
+
+public class Mensaje {
+	private static Logger logger;
+    static {
+        try {   
+               // you need to do something like below instaed of Logger.getLogger(....);
+                logger = LogManager.getLogger(Mensaje.class); 
+          } catch (Throwable th) {
+           }
+    }
+	private String Txtmenor;
+	private String Txtmayor;
+	
+	
+	
+	public Mensaje(){
+		
+	}
+	public Mensaje(String Txtmenor, String Txtmayor) {
+		
+	}
+	
+
+	public String getTxtmenor() {
+		return Txtmenor;
+		
+	}
+	public void setTxtmenor(String Txtmenor) {
+		 logger.info("menor: ");
+		this.Txtmenor=Txtmenor;
+		
+		
+		
+	}
+	public void setTxtmayor(String Txtmayor) {
+		 logger.info("mayor : ");
+		this.Txtmayor=Txtmayor;
+	}
+	
+	public String getTxtmayor() {
+		return Txtmayor;
+		
+	}
+	/*public void setTxtmayor(String Txtmayor){	
+		logger.info("mayor de edad");
+		this.Txtmayor=Txtmayor;
+	
+	}
+	
+	
+	
+	
+	/*private static org.apache.logging.log4j.Logger logger;
+	private String Txtmenor;
+	private String Txtmayor;
+	
+	static {
+		logger = LogManager.getLogger(Mensaje.class);
+	}
+	public static org.apache.logging.log4j.Logger getLogger() {
+		return logger;
+	}
+	public static void setLogger(Logger logger) {
+		logger.info("Mensaje");
+	}
+	
+	public Mensaje(){
+		
+	}
+	public Mensaje(String Txtmenor, String Txtmayor) {
+		
+	}
+	
+
+	public String getTxtmenor() {
+		return Txtmenor;
+		
+	}
+	public void setTxtmenor(String Txtmenor) {
+		logger.log(null, "menor de edad");
+		this.Txtmenor=Txtmenor;
+		
+		
+		
+	}
+	
+	
+	public String getTxtmayor() {
+		return Txtmayor;
+		
+	}
+	/*public void setTxtmayor(String Txtmayor){	
+		logger.info("mayor de edad");
+		this.Txtmayor=Txtmayor;
+	
+	}
+	*/
+	
+	
+	
+
+}

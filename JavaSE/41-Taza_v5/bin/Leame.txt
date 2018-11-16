@@ -1,0 +1,10 @@
+Voy a comprobar como el precio es diferente dependiendo del material
+Añado el atributo size (tam) a la taza
+
+Mejoras
+=======
+
+lo interesante es crear una vajilla generica
+
+Vajilla<T>
+donde la T sean tazas, platos, tenedores, etc....

@@ -1,0 +1,34 @@
+package control;
+
+import java.util.Arrays;
+
+import utilidades.LeerDatos;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int tamañoarray=5;
+		
+		
+		int[] array1=new int[tamañoarray];
+		for (int i = 0; i < array1.length; i++) {
+			System.out.println("Introduce el primer dato entero para nuestro array");
+			
+			
+			array1[i]=LeerDatos.leerint();
+		for (int i = 0; i < array1.length; i++) {
+			int suma=0;
+			suma =(suma+array1[i]);
+			System.out.println(suma);
+		}
+		}
+		
+		
+		
+		
+		
+	}
+
+}

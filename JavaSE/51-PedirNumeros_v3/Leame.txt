@@ -1,0 +1,7 @@
+Mejoras que se han hecho
+
+- Excepciones personalizadas
+- Incluir una clase para Leer (utilidades)
+
+Mejoras para que hagan los alumnos
+- Incluir el logger

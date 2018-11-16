@@ -1,0 +1,4 @@
+Si lo ejecutas, veras un problema
+
+Hay un ciclo y se genera un bucle infinito
+Buscamos dos soluciones no chapuceras

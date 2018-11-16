@@ -1,0 +1,20 @@
+Idea obtenida de
+https://dzone.com/articles/junit-tutorial-beginners
+
+Para crear pruebas
+https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2FgettingStarted%2Fqs-junit.htm
+
+Ejecuta con
+bt dcho > Run As > Junit Test
+
+el hacer "extends TestCase" es como se programaba en Junit 3.x,
+aunque tb vale en Junit 4.x
+En Junit 4.x usaremos anotaciones.. pero ya en el siguiente v2
+
+
+- IDEAS PARA EL FUTURO
+  ====================
+Trabajar con Junit 4.x
+Usar anotaciones
+Usar logger
+

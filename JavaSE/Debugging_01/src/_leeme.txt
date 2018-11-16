@@ -1,0 +1,4 @@
+http://www.jtech.ua.es/j2ee/publico/lja-2012-13/sesion06-apuntes.html
+
+La parte de Logger la cuenta con la versión antigua
+Emplear, mejor, una version más nueva del Logger

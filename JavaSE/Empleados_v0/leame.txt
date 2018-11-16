@@ -1,0 +1,7 @@
+Hecho despues del v1.
+La idea es hacer una versión muy básica
+- no tiene interfaces
+- no tiene capa de servicios
+- no tiene capa datos
+- no tiene GUI
+- he pasado de hacer un array. Eso es de pobres

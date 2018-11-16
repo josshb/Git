@@ -1,0 +1,29 @@
+package control;
+
+import utilidades.Mensaje;
+
+public class MainMayores {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int edad=Asignador.asignar();
+		final int MayoriaEdad=18;
+		
+		if (edad<=MayoriaEdad) {
+			
+			new Mensaje().getTxtmenor();
+			
+			//System.out.println("eres menor a la hoguera");
+			
+			
+		}else {
+			//System.out.println("eres mayor de edad bienvenid@");
+			new Mensaje().getTxtmayor();
+			
+
+			
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+Creamos la clase Persona y segun vayamos pidiendo datos por teclado iremos 
+estableciendo los datos en los atributos del objeto persona. 
+
+Vamos comprobando que edad tiene la persona, si es varon o mujer. 
+El mensaje final que recibirá el cliente será el descuento a aplicar 
+y la cuota que tendría que pagar con el 
+descuento aplicado.
+
+[Nota del profe]
+Estimado alumno/a
+Tus deseos son muy loables, pero la próxima vez me "pondría un montón"
+ que el main estuviera más vacio.
+ Atentamente
+ 
+ El algoritmo es correcto a priori,
+ pero el problema es que se aplican todos los descuentos
+ 

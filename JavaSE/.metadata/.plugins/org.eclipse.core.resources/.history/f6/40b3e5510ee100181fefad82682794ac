@@ -1,0 +1,22 @@
+package utilidades;
+
+import java.util.logging.Logger;
+
+import org.apache.logging.log4j.LogManager;
+
+public class Mensaje {
+
+	private static Logger logger;
+	static {
+		logger = (Logger) LogManager.getLogger(Mensaje.class);
+	}
+	public static Logger getLogger() {
+		return logger;
+	}
+	public static void setLogger(Logger logger) {
+		logger.info("Mensaje");
+	}
+	
+	
+
+}

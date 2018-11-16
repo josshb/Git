@@ -1,0 +1,13 @@
+package utilities;
+
+public class Escritor {
+	int L_Largo=new ComparadorLados().Comparacion();
+	
+	
+	String msg=("El lado mas largo mide: "+L_Largo);
+	
+	public void Escribe() {
+		System.out.println("El lado mas largo mide: "+ msg);
+	}
+	
+}

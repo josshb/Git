@@ -1,0 +1,72 @@
+ package control;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Empleados t1=new Empleados("paco");
+		
+		Empleados t2=new Empleados("ernesto");
+		
+		t1.setSeccion("penologia");
+		System.out.println(t1+""+t2);
+	
+	}
+
+}
+
+class Empleados{
+	
+	private String nombre;
+	private String seccion;
+	
+	private int id;
+	private static int idsiguiente;
+	
+	
+	
+	public Empleados(){
+		
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Empleados(String nombre) {
+		this.nombre=nombre;
+		seccion="administracion";
+		id=idsiguiente;
+		idsiguiente+=Math.PI*2;
+		
+		
+		}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getSeccion() {
+		return seccion;
+	}
+
+	public void setSeccion(String seccion) {
+		this.seccion = seccion;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleados [nombre=" + nombre + ", seccion=" + seccion + ", id=" + id + "]";
+	}
+	
+	
+}
