@@ -1,0 +1,4 @@
+Se ha incuido capas e interfaces
+
+MEJORAS
+- Crear un gestor de BBDD para elegir entre MySQL y Oracle

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selecciona un plato payo</title>
+    <meta name="viewport" content="widht=device-widht">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/restaurante.css" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Restaurante mk1</h1>
+            <h2>Paso 2º Elige entre estos platos</h2>
+        </div>
+        <div id="main">
+            <form action="Pedido" method="post">
+                <fieldset>
+                    <legend>Menú del dia</legend>
+                    <p>elige un primero, segundo y postre</p>
+                    <label for="primero">Primeros platos:</label>
+                    <br />
+                    <input type="radio" id="primero1" name="primero" value="lentejas" checked />lentejas
+                    <input type="radio" id="primero2" name="primero" value="huevos" />Huevos
+                    <input type="radio" id="primero3" name="primero" value="ensalada" />Ensalada
+
+                    <p>
+                        <label for="segundo">Segundos platos:</label>
+                        <br />
+                        <input type="radio" id="segundo1" name="segundo" value="filete" />Filete
+                        <input type="radio" id="segundo2" name="segundo" value="merluza" checked="checked" />Merluza
+                        <input type="radio" id="segundo3" name="segundo" value="cordero" />Cordero
+                    </p>
+                    <p>
+                        <label for="postre">Postres:</label>
+                        <br />
+                        <input type="radio" id="postre1" name="postre" value="flan" />Flan
+                        <input type="radio" id="postre2" name="postre" value="fruta" checked="checked" />Fruta
+                        <input type="radio" id="postre3" name="postre" value="helado" />Helado
+                    </p>
+                    <p>
+                        <input type="submit" value="Realizar pedido" />
+                    </p>
+                </fieldset>
+                <input type="hidden" name="opcion" value="menu">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Restaurante_v2d_Multi_Anot" path="/Restaurante_v2d_Multi_Anot" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v2d_Multi_Anot"/><Context docBase="Restaurante_v2b_Multi_XML" path="/Restaurante_v2b_Multi_XML" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v2b_Multi_XML"/><Context docBase="Restaurante_v2e_Mono_Metodos_Anot" path="/Restaurante_v2e_Mono_Metodos_Anot" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v2e_Mono_Metodos_Anot"/><Context docBase="Restaurante_v2a_Mono_XML" path="/Restaurante_v2a_Mono_XML" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v2a_Mono_XML"/><Context docBase="Restaurante_v1_HTML" path="/Restaurante_v1_HTML" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v1_HTML"/><Context docBase="Restaurante_v2c_Mono_Anot" path="/Restaurante_v2c_Mono_Anot" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante_v2c_Mono_Anot"/></Host>
+      <Context docBase="Restaurante mk1" path="/Restaurante_mk1" reloadable="true" source="org.eclipse.jst.jee.server:Restaurante mk1"/></Host>
     </Engine>
   </Service>
 </Server>
