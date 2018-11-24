@@ -1,0 +1,6 @@
+Es el mismo ejercicio 1a pero adaptado para trabajar con Properties
+Tocamos el XML para recoger los valores
+Ahora las propiedades se recogen mediante anotaciones (Válido desde Spring 3.1)
+
+Para saber más de este tema
+http://www.baeldung.com/2012/02/06/properties-with-spring/

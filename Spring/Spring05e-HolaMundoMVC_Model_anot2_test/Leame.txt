@@ -1,0 +1,3 @@
+Esta basado en el 05d
+Se ha incluido un test para comprobar si lo que devuelve el controller es lo que se esperaba
+En este caso se trabaja con un Model

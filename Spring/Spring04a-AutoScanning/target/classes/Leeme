@@ -1,0 +1,20 @@
+No hay XML
+
+Cada bean está categorizado mediante una anotación
+
+
+=====================
+IMPORTANTE como mejora
+
+Imaginemos que en nuestro servicio tenemos varias implemntaciones (por ejemplo para idiomas).
+Se puede mejorar el uso mediante Profiles
+
+La clase correspondiente se marca como
+
+@Component
+@Profile("nombre1")
+//@Profile({"nombre1","default"})
+public class....
+
+
+La idea es definir perfiles para un componente (independientemente del nombre)
