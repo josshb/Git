@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\jozee\Documents\GitHub\Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1361281540.index
+\Cervezas_v3a_MVC_xml\src
+C:\Users\jozee\Documents\GitHub\Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3843052107.index
+\Cervezas_v4_bean\src
+C:\Users\jozee\Documents\GitHub\Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\147442787.index
+\Cervezas mk3\src
+C:\Users\jozee\Documents\GitHub\Git\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2244087641.index
+\Cervezas_v3b_MVC_anotaciones\src
