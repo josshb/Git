@@ -1,0 +1,6 @@
+Este ejercicio es mejorable
+
+1) Puedo crear una clase con las conexiones y reutilizar
+2) Mejorar la parte de interfaces
+
+3) A partir del ejercicio 6c, podria incluir namedQuery

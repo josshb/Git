@@ -1,0 +1,61 @@
+﻿Es un servicio web bajo JSON/XML
+
+
+* *******************
+* SERVICIOS CREADOS *
+* *******************
+
+>>> Devolver datos de provincia en formato JSON
+Spring13-RestControllerJson/provincia/28
+
+>>> Devolver datos de provincia en formato XML
+Spring13-RestControllerJson/provincia/28.xml
+
+>>> Devolver listado de provincias en formato JSON
+Spring13-RestControllerJson/provincia/listado1
+
+>>> Devolver listado de provincias en formato xml
+Spring13-RestControllerJson/provincia/listado2
+
+* *****************
+* INFORMAC BÁSICA *
+* *****************
+
+Key abstraction in REST is a Resource. 
+There is no restriction on what can be a resource. 
+A todo is a resource. A person on facebook is a resource.
+
+A resource has an URI (Uniform Resource Identifier):
+A resource will have representations: XML, HTML, JSON
+A resource will have state. The representation of a resource should capture its current state.
+
+When a resource is requested, we provide the representation of the resource.
+
+
+
+
+
+* ********************
+* INFORMAC ADICIONAL *
+* ********************
+
+https://www.genuitec.com/spring-frameworkrestcontroller-vs-controller/
+Usamos RestController
+Valido desde Spring 4.0
+
+Para entender como funciona JAXB echa un vistazo a
+https://springframework.guru/using-jaxb-for-xml-with-java/
+
+
+* ************
+* PROPUESTAS *
+* ************
+
+
+>>> Propuesta 01
+Hacer que los datos se vean tambien en un JSP
+Ideas: http://theblasfrompas.blogspot.com.es/2013/10/spring-mvc-rest-content-negotiation.html
+
+>>> Propuesta 02
+Hacer validación de datos
+http://www.springboottutorial.com/spring-boot-validation-for-rest-services
