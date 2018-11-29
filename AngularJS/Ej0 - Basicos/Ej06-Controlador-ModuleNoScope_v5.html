@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej06-Controlador-Simple-NOScope_v5</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />       
+</head>
+
+<body>
+    <!-- var sc = new SimpleController(); -->
+    <div class="container" data-ng-controller="SimpleController as vm">
+
+        <h1>Controladores</h1>
+        <h2>Controlador simple (NO scope) v5</h2>
+        <p>La tendencia actual es a reducir el Scope<br/>
+        De hecho, en Angular 2 se precinde del $scope<br/>
+        El motivo es porque se ha usado como cajon de sastre de código que realmente deberian ser servicios<br/>
+        Para que funcione empleamos la tecnica de    "CONTROLLER AS"    que permite instanciar el controlador desde el propio DOM y asignarlo a una variable</p>
+        <p>Este ejercicio muestra la forma correcta de usar un controlador</p>
+        
+          Name:
+        <br/>
+
+        <input type="text" data-ng-model="name" placeholder="Indica un nombre" />&nbsp;&nbsp;
+        <br/>
+
+        <!-- Fijate que ahora tengo una variable "vm" de donde saco las personas -->
+        <ul>
+            <li data-ng-repeat="person in vm.personas | filter:name | orderBy:'city'">{{person.name}} ({{person.city | uppercase}})</li>
+        </ul>
+    </div>
+
+    <!-- Vamos a usar un formato distinto. Esta es la opción más correcta -->
+    <script src="Ej06-Controlador_v5.js"></script>
+
+
+</body>
+
+</html>

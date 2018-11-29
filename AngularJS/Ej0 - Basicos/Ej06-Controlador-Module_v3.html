@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- 
+Lo empleo para cargar módulos.
+En este caso creo mi propio módulo y por eso debo usarlo aqui para cargarlo 
+-->
+<html lang="en" data-ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej06-Controlador-Simple_v3</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />       
+</head>
+
+<body>
+
+    <div class="container" data-ng-controller="SimpleController">
+
+        <h1>Controladores</h1>
+        <h2>Controlador simple v3</h2> Name:
+        <br/>
+
+        <input type="text" data-ng-model="name" placeholder="Indica un nombre" />&nbsp;&nbsp;
+        <br/>
+
+        <!-- y en mayúsculas  y ordenado-->
+        <ul>
+            <li data-ng-repeat="person in personas | filter:name | orderBy:'city'">{{person.name}} ({{person.city | uppercase}})</li>
+        </ul>
+    </div>
+
+    <script>   
+        // *********
+        //  MODULES
+        // *********
+        
+        // An AngularJS module defines an application.
+        // The module is a container for the different parts of an application.
+        // The module is a container for the application controllers.
+        // Controllers always belong to a module.
+        
+        
+        // Se usa  []  ya que es dónde se realizará la imyección de dependencias
+        // en 'myApp' defino el módulo
+        // con [] indicamos que no hay dependencias a inyectar
+        var myApp = angular.module('myApp', []);
+        
+        // ************
+        //  CONTROLLER
+        // ************
+        
+        //Los controladores no tiene porque definirse en un módulo, pero
+        //    es una buena práctica hacerlo así
+        //Podria haberlo definido en una funcion
+        
+        function SimpleController($scope) {
+            $scope.personas = [
+                {name:'Antonio',city:'Madrid'},
+                {name:'Luis',city:'Barcelona'},
+                {name:'Virginia',city:'Valencia'},
+                {name:'Maria',city:'Murcia'}
+            ];
+        }        
+
+        myApp.controller('SimpleController', SimpleController);
+        
+        //Para inyectar la dependencia si se necesitara seria
+        //http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2016/02/28/different-ways-of-injecting-dependency-in-an-angularjs-application.aspx 
+        //SimpleController.$inject= ['$scope]
+        
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej04-Filtro02-OrdenandoExacto_v3</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />       
+</head>
+
+<body>
+    <div class="container" data-ng-init="
+       names=[
+       {name:'Antonio',city:'Madrid'},
+       {name:'Luis',city:'Barcelona'},
+       {name:'Virginia',city:'Valencia'},
+       {name:'Maria',city:'Murcia'}]">
+
+        <h1>Looping with the ng-repeat Directive</h1>
+        <h2>Ej04-Filtro02-OrdenandoExacto_v3</h2>
+        <p>Filtro por nombre completo (nombre + ciudad)</p>
+        <p>Nombre:
+            <br/>
+            <!-- Ahora filtro solo por el nombre -->
+            <input type="text" data-ng-model="filtrado.name" placeholder="Indica un nombre" /> {{ name }}
+            <br/>
+        </p>
+
+        <!-- y en mayúsculas  y ordenado-->
+        <ul>
+            <li data-ng-repeat="person in names | filter:filtrado | orderBy:'city'">{{person.name}} ({{person.city | uppercase}})</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

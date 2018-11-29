@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej02-Directivas02-Iteraciones</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />       
+</head>
+
+<body>
+    <div class="container" data-ng-init="names=['Antonio','Luis','Virginia','Maria']">
+        <h1>Looping with the ng-repeat Directive & ng-init</h1>
+        <h2>Ej02-Directivas02-Iteraciones</h2>
+        <ul>
+            <li data-ng-repeat="name in names">{{name}}</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
