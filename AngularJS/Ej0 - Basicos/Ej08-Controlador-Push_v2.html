@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 
+Lo empleo para cargar módulos.
+En este caso creo mi propio módulo y por eso debo usarlo aqui para cargarlo 
+-->
+<html lang="en" data-ng-app="samplesModule">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej08-Controlador-Push_v2</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />    
+</head>
+
+<body>
+    <h1>Push</h1>
+    <h2>Ej08-Controlador-Push_v2</h2>
+
+    <div class="container" data-ng-app="samplesModule">
+        <div data-ng-controller="ModuleController">
+            <h3>Adding a Module and Controller</h3>
+            <p>Nombre:
+                <br />
+                <input type="text" data-ng-model="inputData.name" placeholder="name" />
+                <br /> Ciudad:
+                <br />
+                <input type="text" data-ng-model="inputData.city" placeholder="city" />
+                <br />
+                <button class="btn btn-primary" data-ng-click="addCustomer()">Nueva Persona</button>
+                <br />
+                <br /> Filter by Name:
+                <input type="text" data-ng-model="nameText" />
+                <br />
+            </p>
+            <ul>
+                <li data-ng-repeat="customer in customers | filter:nameText | orderBy:'name'">{{ customer.name }} - {{ customer.city }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var samplesModule = angular.module('samplesModule', []);
+        samplesModule.controller('ModuleController', function($scope) {
+            $scope.customers = [
+            {name:'Antonio',city:'Madrid'},
+                {name:'Luis',city:'Barcelona'},
+                {name:'Virginia',city:'Valencia'},
+                {name:'Maria',city:'Murcia'}
+            ];
+
+            $scope.addCustomer = function() {
+                $scope.customers.push({
+                    name: $scope.inputData.name,
+                    city: $scope.inputData.city
+                });
+            }
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

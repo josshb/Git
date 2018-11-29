@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ej01-Directivas01-HolaMundo_v3</title>
+
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />       
+</head>
+
+<body>
+    <div class="container">
+        <h1>Data Binding Fundamentals</h1>
+        <h2>Ej01-Directivas01-HolaMundo_v3</h2>
+        <p>Antonio:
+            <br/>
+            <input type="text" data-ng-model="name" placeholder="Escribe nombre" /><br/>
+            <!-- Note: data-* attributes are the way to extend HTML y ser valid-html5 -->
+            <input type="text" ng-model="lastName" placeholder="Escribe apellido" /><br/><br/>
+            Hola {{ name }} {{ lastName }}
+        </p>
+    </div>
+
+</body>
+
+</html>
