@@ -1,4 +1,0 @@
-INDEX VERSION 1.4+C:\Users\admin\Desktop\Git\Springport\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-6249713.index
-531960536.index
-3875680698.index
